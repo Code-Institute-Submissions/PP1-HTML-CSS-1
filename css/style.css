@@ -73,3 +73,25 @@ nav ul li a {
     text-align: center;
     }
     
+    footer {
+        clear: both;
+        position: relative;
+        z-index: 1;
+        height:-3em;
+        margin-top: 40em; 
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        color: white; 
+        padding:2em;
+    }
+    
+    footer > a {
+        color: beige;
+        border-radius: 5%;
+    }
+    
+    footer > a:hover,   a:hover {
+        background: grey;
+        transition: 1s;
+    }
