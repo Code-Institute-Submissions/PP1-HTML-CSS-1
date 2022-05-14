@@ -9,10 +9,13 @@
     <meta name="keywords" content="music, irish, live music, concerts, rock music">
 
     <link rel="stylesheet" href="css/style.css">
+
+
+
     <title>Afterlife Tour</title>
 </head>
 
-<body>
+<body style="background-color: black;">
     <header id="tour"></header>
 
     <nav class="navbar">
@@ -37,8 +40,27 @@
                 Tour Dates to be added soon
             </p>
         </div>
-    </section>
 
+    </section>
+    <section>
+        <form action="" method="POST">
+
+            <fieldset>
+                <legend>Join our mailing list!</legend>
+
+                <div class="">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required="">
+                </div>
+                <div class="">
+                    <label for="email-field" class="block-label">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required="">
+                </div>
+
+                <input type="submit" class="block-label" value="Join the Afterlife Family!">
+
+        </form>
+    </section>
     <footer>
         <span>Find us on:</span>
 

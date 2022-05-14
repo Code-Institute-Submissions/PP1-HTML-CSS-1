@@ -100,27 +100,48 @@ nav ul li a {
         float: right;
         display: inline-block;
     
-    background-color: #034078;
+    background-color: #121068;
     width: 40%;
     text-align: center;
     }
     
     .about {
     color: white;
+
+    padding: 10%;
+    position: relative;
+    top: 40px;
     }
 
-/* .about > h2 {
-    padding: 10%;
-} */
-
+    hr {
+        margin: 5%;
+    }
 
     #tour {
         color: white;
         text-align: center;
         font-size: large;
-        padding-bottom: 20px;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        padding: 15px;
+
+        border: #b60c0c 5px solid;
     }
     
+    #tour > h2 {
+        padding: 5%;
+
+    }
+
+    form {
+        width: 700px;
+        padding: 25px;
+        border-radius: 8px;
+        margin: 25px auto;
+        background-color:white;
+        text-align: center;
+    }
 
     footer {
         clear: both;
