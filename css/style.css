@@ -17,6 +17,7 @@ body {
  top:0;
  width: 100%;
  position: fixed;
+ z-index: 1;
 }
 
 label.logo {
@@ -71,22 +72,47 @@ nav ul li a {
         padding: 0;
     }
     
+    #cover-text , #cover-text h2{
+        color: white;
+    
+    }
+    
+    #cover-text {
+        font-size: 130%;
+        font-family:'Koulen', cursive;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    
+        width: 300px;
+         height: 300px;
+    
+         padding-top: 40px;
+         padding-left: 10px;
+         background-color: hsla(0, 6%, 7%, 0.9);
+    
+         bottom: 100px;
+         right: 150px;
+         position: absolute;
+    }    
 
     .float-right {
+        padding:30px;
         float: right;
         display: inline-block;
     
     background-color: #034078;
-    border-radius: 25%;
-    width: 30%;
+    width: 40%;
+    text-align: center;
     }
     
     .about {
-        width:30%;
     color: white;
-    
-    text-align: center;
     }
+
+/* .about > h2 {
+    padding: 10%;
+} */
+
 
     #tour {
         color: white;
