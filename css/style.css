@@ -1,6 +1,7 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
     background-color: d4a373;
+    line-height: 1.6;
 }
 
 * {
@@ -47,7 +48,8 @@ nav ul li a {
         border-radius: 5%;
     }
 
-    #about-image {
+    #home-image {
+        margin-top: 5%;
         max-width: 100%;
         height:auto;
         padding: 0;
@@ -55,11 +57,7 @@ nav ul li a {
     }
     
 
-    .float-left {
-        float: left;
-        max-width: 60%;
-    }
-    
+ 
     #sunset-img {
         max-width: 100%;
           height: auto;
@@ -67,14 +65,19 @@ nav ul li a {
     }
 
     .band-img {
-        max-width: 100%;
+        width: 100%;
+        height:auto;
+        padding: 0;
+    }
+
+    #album-img {
+        max-width: 60%;
         height:auto;
         padding: 0;
     }
     
     #cover-text , #cover-text h2{
         color: white;
-    
     }
     
     #cover-text {
@@ -88,33 +91,43 @@ nav ul li a {
     
          padding-top: 40px;
          padding-left: 10px;
-         background-color: hsla(0, 6%, 7%, 0.9);
+         background-color: hsla(0, 6%, 7%, .9);
+         border: 5px solid red;
     
          bottom: 100px;
          right: 150px;
          position: absolute;
     }    
 
-    .float-right {
-        padding:30px;
-        float: right;
-        display: inline-block;
-    
-    background-color: #121068;
-    width: 40%;
-    text-align: center;
-    }
-    
-    .about {
-    color: white;
+  
 
-    padding: 10%;
-    position: relative;
-    top: 40px;
+    .about {
+ width:100%;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+        background-color: #702632;
+    color: #ffffff;
+    vertical-align: top;
+   } 
+
+    .about > p {
+        max-width: 40rem;
+        text-align: center;
+        position: relative;
+        left: 30%;
+        padding: 5%;
     }
+
+.about > h2 {
+    text-align: center;
+    padding: 5% ;
+}
 
     hr {
-        margin: 5%;
+       width: 50%;
+       position: relative;
+       left: 25%;
+
     }
 
     #tour {
@@ -124,15 +137,12 @@ nav ul li a {
         width: 50%;
         position: relative;
         left: 25%;
-        padding: 15px;
+        padding: 10%;
 
         border: #b60c0c 5px solid;
     }
     
-    #tour > h2 {
-        padding: 5%;
 
-    }
 
     form {
         width: 700px;
@@ -141,6 +151,7 @@ nav ul li a {
         margin: 25px auto;
         background-color:white;
         text-align: center;
+        color: #000000;
     }
 
     footer {
@@ -148,7 +159,6 @@ nav ul li a {
         position: relative;
         z-index: 1;
         height:-3em;
-        margin-top: 40em; 
         background-color: black;
         width: 100%;
         text-align: center;
