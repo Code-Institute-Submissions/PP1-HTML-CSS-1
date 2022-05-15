@@ -59,12 +59,6 @@ nav ul li a {
     }
     
 
- 
-    #sunset-img {
-        max-width: 100%;
-          height: auto;
-          display: inline-block;
-    }
 
     .band-img {
         width: 100%;
@@ -76,6 +70,18 @@ nav ul li a {
         max-width: 60%;
         height:auto;
         padding: 0;
+    }
+
+    #merch-img {
+        width: 100%;
+        height:auto;
+        padding: 5em;
+    }
+
+    #eros-london {
+        width: 100%;
+        height:auto;
+        padding: 5em;
     }
     
     /* Homepage cover text */
@@ -132,6 +138,7 @@ nav ul li a {
        width: 50%;
        position: relative;
        left: 25%;
+    margin-top: 1em;
 margin-bottom: 2rem;
     }
 
@@ -165,6 +172,27 @@ margin-bottom: 2rem;
         text-align: center;
         padding: 1em;
     }
+
+/* Merch page styling */
+
+.clothes-img , .jewel-info{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    display: inline;
+}
+
+
+
+.clothes-info , .jewel-img{
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+    padding: 6em;
+    text-align: center;
+    display: inline;
+}
+
 
 
     form {
