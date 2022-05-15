@@ -1,0 +1,200 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+* {
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+ background-color: rgba(0,0,0);
+ height: 100px;
+ top:0;
+ width: 100%;
+ position: fixed;
+ z-index: 1;
+}
+
+label.logo {
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 100px;
+    padding: 0 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+     line-height: 100px;
+     margin: 0 5px;
+}
+
+nav ul li a {
+        color: white;
+        font-size: 2rem;
+        font-weight: 100;
+        border-radius: 5%;
+    }
+
+    /* Images styling */
+
+    #home-image {
+        margin-top: 5%;
+        max-width: 100%;
+        height:auto;
+        padding: 0;
+        vertical-align: bottom;
+    }
+    
+
+ 
+    #sunset-img {
+        max-width: 100%;
+          height: auto;
+          display: inline-block;
+    }
+
+    .band-img {
+        width: 100%;
+        height:auto;
+        padding: 0;
+    }
+
+    #album-img {
+        max-width: 60%;
+        height:auto;
+        padding: 0;
+    }
+    
+    /* Homepage cover text */
+
+
+    #cover-text , #cover-text h2{
+        color: white;
+    }
+    
+    #cover-text {
+        font-size: 130%;
+        font-family:'Koulen', cursive;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    
+        width: 300px;
+         height: 300px;
+    
+         padding-top: 40px;
+         padding-left: 10px;
+         background-color: hsla(0, 6%, 7%, .9);
+         border: 5px solid red;
+    
+         bottom: 100px;
+         right: 150px;
+         position: absolute;
+    }    
+
+  
+
+    .about {
+ width:100%;
+        margin: 0 auto;
+        padding-bottom: 5rem;
+        background-color: #702632;
+    color: #ffffff;
+    vertical-align: top;
+   } 
+
+    .about > p {
+        max-width: 40rem;
+        text-align: center;
+        position: relative;
+        left: 30%;
+        padding: 5%;
+    }
+
+.about > h2 {
+    text-align: center;
+    padding: 5% ;
+}
+
+    hr {
+       width: 50%;
+       position: relative;
+       left: 25%;
+margin-bottom: 2rem;
+    }
+
+    /* Tour page styling */
+
+    .tour-info {
+        color: white;
+        text-align: center;
+        font-size: large;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        padding: 10%;
+        border: #b60c0c 5px solid;
+    }
+    
+    /* Album page styling */
+
+    #album-info {
+        margin-top: 100px;
+        float: right;
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        padding: 2em;
+        color: aqua;
+
+    }
+
+    #album-info > h2 {
+        text-align: center;
+        padding: 1em;
+    }
+
+
+    form {
+        width: 700px;
+        padding: 25px;
+        border-radius: 8px;
+        margin: 25px auto;
+        background-color:white;
+        text-align: center;
+        color: #000000;
+    }
+
+    footer {
+        clear: both;
+        position: relative;
+        z-index: 1;
+        height:-3em;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        color: white; 
+        padding:2em;
+    }
+    
+    footer > a {
+        color: beige;
+        border-radius: 5%;
+    }
+    
+    footer > a:hover,   a:hover {
+        background: grey;
+        transition: 1s;
+    }
