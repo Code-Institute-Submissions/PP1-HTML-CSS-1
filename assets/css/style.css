@@ -148,9 +148,9 @@ margin-bottom: 2rem;
         color: white;
         text-align: center;
         font-size: large;
-        width: 50%;
+        width: 40%;
         position: relative;
-        left: 25%;
+        left: 30%;
         padding: 10%;
         border: #b60c0c 5px solid;
     }
@@ -176,23 +176,25 @@ margin-bottom: 2rem;
 /* Merch page styling */
 
 .clothes-img , .jewel-info{
-    float: left;
-    width: 50%;
     margin-top: 100px;
-    display: inline;
+    text-align: center;
 }
 
 
-
-.clothes-info , .jewel-img{
+.clothes-info {
     float: right;
-    width: 50%;
     margin-top: 100px;
     padding: 6em;
     text-align: center;
-    display: inline;
-}
+   }
 
+.clothes , .jewellery {
+    column-count: 2;
+    vertical-align: bottom;
+}
+/* .jewellery , .clothes {
+    display: block;
+} */
 
 
     form {
