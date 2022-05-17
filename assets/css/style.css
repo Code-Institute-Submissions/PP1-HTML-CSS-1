@@ -184,7 +184,7 @@ nav ul li a {
 width:100%;
 margin: 0 auto;
 padding-bottom: 5rem;
-color: #black;
+color: black;
 } 
 
 .about-text {
@@ -208,14 +208,15 @@ margin-bottom: 2rem;
 
 
     .tour-info {
-        color: white;
+        color: black;
         text-align: center;
         font-size: large;
-        width: 40%;
+        width: 35%;
         position: relative;
         left: 30%;
         padding: 5%;
         border: #b60c0c 5px solid;
+        margin: 5%;
     }
     
 .tickets {
