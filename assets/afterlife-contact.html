@@ -9,23 +9,22 @@
     <meta name="keywords" content="music, irish, live music, concerts, rock music">
 
     <link rel="stylesheet" href="css/style.css">
+    <title>Afterlife</title>
 
 
-
-    <title>Afterlife Tour</title>
 </head>
 
-<body>
-    <header id="tour"></header>
+<body style="background-color: #2b2b2b;">
+    <header id="contact"></header>
 
     <nav class="navbar">
         <label class="logo">Afterlife</label>
         <ul>
             <li> <a href="afterlife-index.html" aria-label="Go to the home page">HOME</a></li>
-            <li> <a href="#tour" aria-label="Go to the top of the page">TOUR</a></li>
+            <li> <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a></li>
             <li> <a href="afterlife-album.html" aria-label="Go to the album page">ALBUM</a></li>
             <li> <a href="afterlife-merch.html" aria-label="Go to the merchandise page">MERCH</a></li>
-            <li> <a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a></li>
+            <li> <a href="#contact" aria-label="Go to the top of the page">CONTACT</a></li>
         </ul>
         <div class="dropdown">
             <button class="dropbtn">
@@ -34,47 +33,44 @@
             </button>
             <div class="dropdown-content">
                 <a href="afterlife-index.html" aria-label="Go to the home page">HOME</a>
-                <a href="#tour" aria-label="Go to the top of the page">TOUR</a>
+                <a href="afterlife-tour.html" aria-label="Go to the tour page">TOUR</a>
                 <a href="afterlife-album.html" aria-label="Go to the album page">ALBUM</a>
                 <a href="afterlife-merch.html" aria-label="Go to the merchandise page">MERCH</a>
-                <a href="afterlife-contact.html" aria-label="Go to the contact page">CONTACT</a>
+                <a href="#contact" aria-label="Go to the top of the page">CONTACT</a>
             </div>
         </div>
     </nav>
 
-    <section>
-        <img class="band-img" src="band-image.jpg" alt="Band playing live">
-        <div class="tour-info">
-            <h2>
-                Tour
-            </h2>
-            <hr>
-            <div class="tour-dates">
-                <div>Dolans, Limerick</div>
-                <div>May 18th</div>
-                <button class="tickets"><a href="https://www.ticketmaster.ie/" target="_blank">Tickets</a></button>
-            </div>
-            <hr>
-            <div class="tour-dates">
-                <div>The Crane Lane Theatre, Cork</div>
-                <div>May 22th</div>
-                <button class="tickets"><a href="https://www.ticketmaster.ie/" target="_blank">Tickets</a></button>
-            </div>
-            <hr>
-            <div class="tour-dates">
-                <div>The Olympia, Dublin</div>
-                <div>May 27th</div>
-                <button class="tickets"><a href="https://www.ticketmaster.ie/" target="_blank">Tickets</a></button>
-            </div>
-            <hr>
-            <div class="tour-dates">
-                <div>Voodoo, Belfast</div>
-                <div>May 30th</div>
-                <button class="tickets"><a href="https://www.ticketmaster.ie/" target="_blank">Tickets</a></button>
-            </div>
-        </div>
+    <section class="contact-form">
+        <h1>WE ARE HAPPY TO HEAR FROM YOU!</h1>
+
+        <h2>Contact</h2>
+
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <fieldset>
+                <legend>Need to get in touch?</legend>
+                <p>We're always happy to chat and help answer any questions you may have! Please note, we try our best
+                    to respond to all inquiries within 48 hours, Monday - Friday.</p>
+                <div>
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required="required">
+                </div>
+                <div>
+                    <label for="email-field" class="block-label">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required="required">
+                </div>
+                <div>
+                    <label for="textarea" class="textarea">Message</label>
+                    <input type="text" name="textarea" required="required">
+                </div>
+                <input type="submit" class="block-label" value="Submit">
+
+        </form>
+
+
 
     </section>
+
 
 
     <footer>
