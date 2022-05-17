@@ -256,7 +256,7 @@ button > a {
 /* Merch page styling */
 
 .clothes-img , .jewel-info{
-    margin-top: 100px;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -270,6 +270,7 @@ button > a {
 
 .clothes , .jewellery {
     column-count: 2;
+    width: 100%;
     vertical-align: bottom;
     color: black;
 }
@@ -285,6 +286,11 @@ button {
     margin-top: 1em;
 }
 
+/* contact page */
+
+h1 {
+    margin: 2rem;
+}
 
     form {
         max-width: 50%;
@@ -297,20 +303,13 @@ button {
     }
 
     .contact-form {
-        color: white;
+        color: black;
         margin-top: 7em;
         padding: 1.5em;
         text-align: center;
     }
 
 input {
-    padding: .5em;
-    border: solid 1px #999;
-}
-
-textarea {
-    min-height: 8em;
-    min-width: 100%;
     padding: .5em;
     border: solid 1px #999;
 }
