@@ -189,6 +189,7 @@ color: black;
 
 .about-text {
  padding: 5% 20% 5% 20%;
+ text-align: center;
 }
 
 .about > h2 {
@@ -299,7 +300,8 @@ h1 {
         margin: 25px auto;
         background-color:white;
         text-align: center;
-        color: #000000;
+        color: black;
+        border: 2px solid black;
     }
 
     .contact-form {
