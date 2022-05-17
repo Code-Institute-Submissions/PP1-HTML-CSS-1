@@ -1,6 +1,6 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    background-color: #2b2b2b;
+    background-color: #E8E8E8;
     line-height: 1.6;
 }
 
@@ -129,7 +129,7 @@ nav ul li a {
         padding: 0;
     }
 
-    #album-img {
+    .album-img {
         max-width: 100%;
         height:auto;
         padding: 4em;
@@ -180,7 +180,7 @@ nav ul li a {
  width:100%;
         margin: 0 auto;
         padding-bottom: 5rem;
-        background-color: #2b2b2b;
+        /* background-color: #2b2b2b; */
     color: #ffffff;
     vertical-align: top;
    } 
@@ -231,24 +231,24 @@ button > a {
 
     /* Album page styling */
 
-    #album-frame {
+    .album-frame {
         display: inline-block;
         width: 60%;
         margin-top: 1rem;
         padding: 1.5em;
     }
 
-    #album-info {
+    .album-info {
         margin-top: 100px;
         float: right;
         width: 40%;
         vertical-align: top;
         padding: 2em;
-        color: aqua;
+        color: black;
 
     }
 
-    #album-info > h2 {
+    .album-info > h2 {
         text-align: center;
         padding: 1em;
     }
@@ -271,11 +271,20 @@ button > a {
 .clothes , .jewellery {
     column-count: 2;
     vertical-align: bottom;
+    color: black;
 }
 
 .jewel-info {
     padding: 1rem;
 }
+
+button {
+    background-color: black;
+    border-radius: 10%;
+    padding: .5em;
+    margin-top: 1em;
+}
+
 
     form {
         max-width: 50%;
