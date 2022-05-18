@@ -273,7 +273,12 @@ vertical-align: bottom;
 color: black;
 }
 
+.jewel-img {
+    float: right;
+}
+
 .jewel-info {
+    float: left;
 padding: 1rem;
 }
 
@@ -361,15 +366,53 @@ transition: 1s;
 label.logo {
     font-size: 28px;
 }
-
+/* Home page */
 form {
     max-width: 100%;
     margin: 0;
 }
+/* Tour page */
 .tour-info {
     width: 100%;
     margin: 0;
     left:0;
 }
+/* Album page */
+.album-frame , .album-info {
+    display: block;
+}
+.album-frame {
+    width:100%;
+    height:100%;
+    padding: none;
+    margin: none;
+}
+.album-img {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+.album-info {
+    margin: 0;
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+.album-info > h2 {
+    padding:0;
+}
 
+/* Merch page */
+
+.clothes , .jewellery {
+    column-count: 1;
+}
+.clothes-info , .jewel-info {
+    margin: 1em;
+    padding: 0;
+}
+#merch-img , #eros-london {
+    max-width: 100%;
+    padding: 1em;
+}
 }
