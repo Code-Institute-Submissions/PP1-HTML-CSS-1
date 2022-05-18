@@ -29,7 +29,7 @@ label.logo {
     font-weight: 200;
     letter-spacing: 2px;
     line-height: 100px;
-    padding: 0 100px;
+    padding-left:100px;
 }
 
 nav ul {
@@ -50,15 +50,15 @@ nav ul li a {
         border-radius: 5%;
     }
 
-/* navbar responsiveness */
+/* navbar dropdown display */
 
-@media (max-width:950px) {
+@media (max-width:1000px) {
     nav ul {
         display: none;
     }
 }
 
-@media (min-width:950px) {
+@media (min-width:1001px) {
     .dropdown {
         display: none;
     }
@@ -71,6 +71,7 @@ nav ul li a {
     float: right;
     overflow: hidden;
     height: 100px;
+    margin-right: 1em;
   }
   
   .dropdown .dropbtn {
@@ -80,7 +81,11 @@ nav ul li a {
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+  }
+
+  .dropbtn {
+    margin-top: 25%;
+
   }
 
   .dropdown-content {
@@ -104,12 +109,8 @@ nav ul li a {
     color: black;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1050px) {
 
-     a.icon {
-      float: right;
-      display: block;
-    }
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -127,7 +128,7 @@ nav ul li a {
 
 
     .band-img {
-        width: 100%;
+        max-width: 100%;
         height:auto;
         padding: 0;
         vertical-align: top;
@@ -140,13 +141,13 @@ nav ul li a {
     }
 
     #merch-img {
-        width: 100%;
+        max-width: 100%;
         height:auto;
         padding: 5em;
     }
 
     #eros-london {
-        width: 100%;
+        max-width: 100%;
         height:auto;
         padding: 5em;
     }
@@ -227,7 +228,7 @@ margin-bottom: 2rem;
 }
 
 button > a {
-    color: white;
+    color: black;
 }
 
     /* Album page styling */
@@ -280,7 +281,7 @@ button > a {
     padding: 1rem;
 }
 
-button {
+.browse {
     background-color: black;
     border-radius: 10%;
     padding: .5em;
@@ -346,11 +347,18 @@ footer > a:hover,   a:hover {
     transition: 1s;
 }
 
-@media screen and (max-width: 600px) {
+/* media queries */
+
+
+@media screen and (max-width: 1050px) {
     #cover-text-parent {
       display: none;
     }
+  }
+
+  @media screen and (max-width:550px) {
     label.logo {
-        font-size: 24px;
+        font-size: 28px;
     }
+    
   }
