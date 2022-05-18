@@ -441,7 +441,7 @@ form {
 
 }
 
-
+/* Make logo small below 350px */
 @media screen and (max-width:350px) {
     label.logo {
         padding-left: 1em;
