@@ -297,7 +297,7 @@ h1 {
         max-width: 50%;
         padding: 25px;
         border-radius: 8px;
-        margin: 25px auto;
+        margin:0 25% auto;
         background-color:white;
         text-align: center;
         color: black;
@@ -310,6 +310,13 @@ h1 {
         padding: 1.5em;
         text-align: center;
     }
+
+.textarea {
+    min-height: 5em;
+    min-width: 50%;
+    padding: .5em;
+    border: solid 1px black;
+}
 
 input {
     padding: .5em;
