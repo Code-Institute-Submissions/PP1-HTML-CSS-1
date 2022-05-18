@@ -170,8 +170,8 @@ display: block;
         background-color: hsla(0, 6%, 7%, .9);
         border: 5px solid red;
 
-        bottom: 100px;
-        right: 150px;
+        top: 450px;
+        right: 100px;
         position: absolute;
 }    
 
