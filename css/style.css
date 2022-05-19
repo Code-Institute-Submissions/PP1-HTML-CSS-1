@@ -1,6 +1,6 @@
 body {
 font-family: 'Nanum Gothic', sans-serif;
-background-color: #D8DAD3;
+background-color: #f1f3ea;
 line-height: 1.6;
 }
 
@@ -122,7 +122,12 @@ display: block;
     vertical-align: top;
 }
 
-
+#sunset-img {
+    max-width: 100%;
+    height:auto;
+    padding: 0;
+    vertical-align: top;
+}
 
 .band-img {
     max-width: 100%;
@@ -176,8 +181,8 @@ display: block;
 }    
 
 
-
 .about {
+    background: url(../assets/circle-img.jpg) no-repeat center center;
 width:100%;
 margin: 0 auto;
 padding-bottom: 5rem;
@@ -187,6 +192,7 @@ color: black;
 .about-text {
 padding: 5% 20% 5% 20%;
 text-align: center;
+color: white;
 }
 
 .about > h2 {
