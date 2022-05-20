@@ -56,7 +56,6 @@ Welcome to the journey through <a href="https://gallie83.github.io/PP1-HTML-CSS/
 * As a user I want to see all of Afterlife's body of work.
 * As a user I want to know more about Afterlife.
 * As a user I want to connect with Afterlife on social media.
-* As a user I want to know the next availible tour date near me.
 
 [Back to top](<#contents>)
 
@@ -98,7 +97,7 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 
     * Located at the top of each page, it clearly shows how to access different parts of the website. On smaller devices, the links in the navbar, scale down to a dropdown menu to retain accessiblity but reduce the screen looking cluttered. The page the user is currently on remains highlighted.
 
-![Navigation bar image](assets/readme-assets/navbar.png)
+![Navigation bar image](assets/readme-assets/nav-bar.png)
 
 [Back to top](<#contents>)
 
