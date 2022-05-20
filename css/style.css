@@ -306,9 +306,7 @@ margin-top: 1em;
 
 /* contact page */
 
-h1 {
-margin: 2.5rem;
-}
+
 
 form {
     max-width: 50%;
@@ -321,14 +319,14 @@ form {
     border: 2px solid black;
 }
 
-.contact-form {
-    background: url(../assets/contact-img.jpg) no-repeat center fixed;
-    background-size: 100%;
-    width: 100%;
-    height: 100%;
-    color: white;
-    /* margin-top: 7em; */
-    padding: 3em;
+.contact-form {  
+  
+     background: url(../assets/contact-img.jpg) no-repeat center center;
+    width:100%;
+    background-size: 100%; 
+    color: black;
+    padding: 4em;
+    
     text-align: center;
 }
 
@@ -350,8 +348,6 @@ margin: .5em;
 
 footer {
 clear: both;
-position: absolute;
-bottom: 0;
 z-index: 1;
 height:-3em;
 background-color: black;
@@ -373,14 +369,45 @@ padding: .25em;
 }
 
 /* media queries */
-
+@media screen and (max-width: 1100px) {
+        /* Album page */
+        .album-frame , .album-info {
+            display: block;
+        }
+        .album-frame {
+            width:100%;
+            height:100%;
+            padding: none;
+            margin: none;
+        }
+        .album-img {
+            padding: 0;
+            max-width: 100%;
+            height: auto;
+        }
+        .album-info {
+            margin: 0;
+            text-align: center;
+            float: none;
+            width: 100%;
+        }
+        .album-info > h2 {
+            padding:0;
+        }
+}
 
 @media screen and (max-width: 1050px) {
 #cover-text-parent {
     display: none;
 }
 }
-
+ 
+@media screen and (max-width:900px) {
+    .contact-form {
+        background-image: none;
+        background-color: #ff7403;
+    }
+}
 
 @media screen and (max-width:770px) {
     /* Tour page */
@@ -388,30 +415,7 @@ padding: .25em;
         width: 90%;
 left: 0;
     }
-    /* Album page */
-    .album-frame , .album-info {
-        display: block;
-    }
-    .album-frame {
-        width:100%;
-        height:100%;
-        padding: none;
-        margin: none;
-    }
-    .album-img {
-        padding: 0;
-        max-width: 100%;
-        height: auto;
-    }
-    .album-info {
-        margin: 0;
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
-    .album-info > h2 {
-        padding:0;
-    }
+
     /* Merch page */
 
 .clothes , .jewellery {
@@ -458,8 +462,7 @@ form {
 /* Contact page */
 
 .contact-form {
-    margin-top: 1.3em;
-    margin-bottom: 3em;
+padding: 6.5em 0;
 }
 
 }
