@@ -54,6 +54,7 @@ nav ul li a {
     border-radius: 5%;
 }
 
+
 /* navbar dropdown display */
 
 @media (max-width:1000px) {
@@ -95,7 +96,7 @@ margin-top: 30%;
 display: none;
 position: absolute;
 background-color: #f9f9f9;
-min-width: 160px;
+max-width: 90px;
 z-index: 1;
 }
 
@@ -123,20 +124,22 @@ display: block;
     max-width: 100%;
     height:auto;
     padding: 0;
-    vertical-align: top;
+    display: block;
 }
 
 #sunset-img {
     max-width: 100%;
     height:auto;
     padding: 0;
-    vertical-align: top;
+    display: block;
+
 }
 
 .band-img {
     max-width: 100%;
     height:auto;
     padding: 0;
+    display: block;
 }
 
 .album-img {
@@ -235,6 +238,7 @@ border-radius: 15%;
 
 button > a {
 color: white;
+
 }
 
 /* Album page styling */
@@ -334,12 +338,15 @@ border: solid 1px black;
 input {
 padding: .5em;
 border: solid 1px #999;
+margin: .5em;
 }
+
+
 
 
 footer {
 clear: both;
-position: relative;
+position: sticky;
 z-index: 1;
 height:-3em;
 background-color: black;
@@ -357,6 +364,7 @@ border-radius: 5%;
 footer > a:hover,   a:hover {
 background: grey;
 transition: 1s;
+padding: .25em;
 }
 
 /* media queries */
