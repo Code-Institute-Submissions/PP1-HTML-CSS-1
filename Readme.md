@@ -19,23 +19,14 @@ Welcome to the journey through <a href="https://gallie83.github.io/PP1-HTML-CSS/
 * [**Features**](<#features>)
     * [**Home**](<#navigation-menu>)
          * [Navigation menu](<#navigation-menu>)
-         * [Gallery](<#gallery>)
-         * [About-us](<#about-us>)
-         * [Testimonials](<#testimonials>)
+           * [Home Image](<#home-image>)
+         * [Our Background](<#Our-background>)
          * [Footer](<#footer>)
-    * [**Projects**](<#projects>)
-        * Dolls Cots
-        * Height Chart
-        * Walker
-    * [**Inspiration**](<#inspiration>)
-        * Elm
-        * Oak
-        * Elm
-    * [**Contact Us**](<#contact-us>)
-       * Contact details
-       * Location map
-       * Design Query form
-    * [**Form Confirmation**](<#form-confirmation>)
+         * [Tour](<#tour)
+         * [Album](<#album>)
+         * [Merch](<#merch>)
+         * [Contact](<#contact>)
+         * [Submit page](<#submit-page>)
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
