@@ -326,8 +326,13 @@ form {
     background-size: 100%; 
     color: black;
     padding: 4em;
-    
+    height: 600px;
     text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 2em;
 }
 
 .textarea {
@@ -346,7 +351,7 @@ margin: .5em;
 /* Submitted page */
 
 #submitted {
-    height: 500px;
+    height: 600px;
     margin: 0;
     padding: 0;
 }
@@ -409,18 +414,23 @@ padding: .25em;
 }
  
 @media screen and (max-width:900px) {
+        /* Tour page */
+        .tour-info {
+            width: 90%;
+    left: 0;
+        }
+        /* contact page */
     .contact-form {
         background-image: none;
         background-color: #ff7403;
     }
+    #submitted {
+        height: 500px;
+    }
 }
 
 @media screen and (max-width:770px) {
-    /* Tour page */
-    .tour-info {
-        width: 90%;
-left: 0;
-    }
+
 
     /* Merch page */
 
