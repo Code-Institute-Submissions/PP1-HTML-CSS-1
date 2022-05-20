@@ -343,7 +343,13 @@ border: solid 1px #999;
 margin: .5em;
 }
 
+/* Submitted page */
 
+#submitted {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
 
 
 footer {
