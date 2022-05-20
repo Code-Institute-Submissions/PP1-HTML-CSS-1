@@ -22,7 +22,7 @@ Welcome to the journey through <a href="https://gallie83.github.io/PP1-HTML-CSS/
            * [Home Image](<#home-image>)
          * [Our Background](<#Our-background>)
          * [Footer](<#footer>)
-         * [Tour](<#tour)
+         * [Tour](<#tour>)
          * [Album](<#album>)
          * [Merch](<#merch>)
          * [Contact](<#contact>)
@@ -140,6 +140,7 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 
 * ### Contact 
     *The Contact page provides a chance for the user to connect with the band and ask any questions they have after navigating the information on the site. 
+
     *There are 3 input areas and a sumbit button on the contact form. After the form is submitted it takes the user to the submit page.
 
 ![Contact page image](assets/readme-assets/contact.png)
@@ -148,8 +149,8 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 [Back to top](<#contents>)
 
 * ### Submit page 
-    * This submit page reassures the user that their question has been received and will be replied to promptly.. For this project it validates the form only.
-    * It provides a direct link back to the contact page as well as the normal navigation menu links in the header and footer.
+    * This submit page reassures the user that their question has been received and will be replied to promptly. For this project it validates the form only.
+    * The Navigation bar provides easy access back to the rest of the website.
 
 ![Submit page image](assets/readme-assets/submit.png)
 
@@ -157,7 +158,7 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 
 ## Future Features 
 
-* A page where all the bands music videos would be availible for viewing on the website. This page would have a swipe feature on mobile to make browsing through videos easier.
+* A page where all the bands music videos would be availible for viewing on the website. This page would have a swipe feature on mobile where users could swipe from one video to another to make browsing through videos easier.
 
 [Back to top](<#contents>)
 
