@@ -6,7 +6,9 @@ The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](assets/readme-assets/home-testing.png)
+![W3C Validator test result](assets/readme-assets/home-test.png)
+
+[Home page testing link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgallie83.github.io%2FPP1-HTML-CSS%2Findex.html)
 
 There is an error message here as the form is not yet live.
 
@@ -28,12 +30,13 @@ This problem highlighted that there was an anchor tag inside a button. This was 
 * Contact page
 
 ![W3C Validator test result](assets/readme-assets/contact-test.png)
-
+[Contact testing link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgallie83.github.io%2FPP1-HTML-CSS%2Fafterlife-contact.html)
 
 The CSS validator results are below:
 
 ![CSS Validator test result](assets/readme-assets/css-test.png)
 
+[CSS test validation link](https://jigsaw.w3.org/css-validator/validator)
 ## Responsiveness Test
 
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Am I Responsive](https://ui.dev/amiresponsive/).
