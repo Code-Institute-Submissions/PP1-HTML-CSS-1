@@ -172,7 +172,7 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 
 # Testing
 
-Please refer to [**_here_**](testing.md) for more information on testing Afterlife.
+Please refer to [**_here_**](Testing.md) for more information on testing Afterlife.
 
 [Back to top](<#contents>)
 

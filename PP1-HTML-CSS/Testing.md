@@ -51,6 +51,13 @@ Note: On wide display types the contents of the site are restricted in width to 
 Afterlife site was tested on the following browsers with no visible issues for the user. 
 Google Chrome, Microsoft Edge and Mozilla Firefox. Responsiveness was consistent throughout for a range of device sizes.
 
+
+### Lighthouse
+The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages.
+
+![Lighthouse test result](assets/readme-assets/lighthouse.png)
+
+
 ## Testing User Stories
 
 * As a user I want to be able to navigate through the whole site smoothly.
