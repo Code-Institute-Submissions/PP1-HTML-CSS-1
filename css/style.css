@@ -236,6 +236,10 @@ background-color:#ff7403;
 border-radius: 15%;
 }
 
+button {
+    color: white;
+}
+
 .browse {
 color: white;
 }
