@@ -89,7 +89,10 @@ The site was also tested using [Google Lighthouse](https://developers.google.com
 
 * Un-Solved
     * I was unable to get the buttons to open links in a seperate tab while keeping the main website tab open.
-    
+
+  *Testing page
+    * I was unable to link some of the images to this testing file although they are stored with the rest of the images.
+      
     <br>
 
 ### Peer review
