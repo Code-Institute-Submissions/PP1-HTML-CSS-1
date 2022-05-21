@@ -369,7 +369,6 @@ margin: .5em;
 footer {
 clear: both;
 z-index: 1;
-height:-3em;
 background-color: black;
 width: 100%;
 text-align: center;
@@ -397,8 +396,6 @@ padding: .25em;
         .album-frame {
             width:100%;
             height:100%;
-            padding: none;
-            margin: none;
         }
         .album-img {
             padding: 0;

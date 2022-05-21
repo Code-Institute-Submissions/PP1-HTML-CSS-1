@@ -42,7 +42,6 @@ Welcome to the journey through <a href="https://gallie83.github.io/PP1-HTML-CSS/
 ## User Stories
 
 * As a user I want to be able to navigate through the whole site smoothly.
-* As a user I want to understand the purpose of the site upon loading it.
 * As a user I want to easily be able to contact Afterlife for more information.
 * As a user I want to see all of Afterlife's body of work.
 * As a user I want to know more about Afterlife.
@@ -172,8 +171,8 @@ The Afterlife site is set up to be clear and easy to navigate. It has many featu
 [Back to top](<#contents>)
 
 # Testing
-*The site was tested using 
 
+Please refer to [**_here_**](testing.md) for more information on testing Afterlife.
 
 [Back to top](<#contents>)
 

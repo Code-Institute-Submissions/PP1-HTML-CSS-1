@@ -6,9 +6,9 @@ The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](assets/readme-assets/.png)
+![W3C Validator test result](assets/readme-assets/home-test.png)
 
-This was an oversight from the development phase when the font size was being modified. It was easily fixed by using the correct closing tag, \</h5>.
+There is an error message here as the form is not yet live.
 
 * Album page
 
@@ -21,17 +21,22 @@ This problem highlighted that there was an anchor tag inside a button. This was 
 
 ![W3C Validator test result](assets/readme-assets/tour-test.png)
 
+* Merch page
+
+![W3C Validator test result](assets/readme-assets/merch-test.png)
+
 * Contact page
 
-![W3C Validator test result](assets/readme-images/w3ctesting.png)
+![W3C Validator test result](assets/readme-assets/contact-test.png)
+
 
 The CSS validator results are below:
 
-![CSS Validator test result](assets/readme-images/csstesting.png)
+![CSS Validator test result](assets/readme-assets/css-test.png)
 
 ## Responsiveness Test
 
-* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Am I Responsive](https://ui.dev/amiresponsive/).
 
 |        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | Display <1200px | Display >1200px |
 |--------|---------|-----------|----------|------|-----------------|-----------------|
@@ -43,70 +48,41 @@ Note: On wide display types the contents of the site are restricted in width to 
 
 ## Browser Compatibility
 
-Wawas Woods site was tested on the following browsers with no visible issues for the user. 
-Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Responsiveness was consistent throughout for a range of device sizes.
+Afterlife site was tested on the following browsers with no visible issues for the user. 
+Google Chrome, Microsoft Edge and Mozilla Firefox. Responsiveness was consistent throughout for a range of device sizes.
 
 ## Testing User Stories
 
 * As a user I want to be able to navigate through the whole site smoothly.
     * Navigation is at the top of every page in the form of the **navigation menu**.
-    * In the about us section, there is an additional link to the **contact us** page.
-    * On every page there is also a **scroll up arrow** to ease the route to the navigation menu.
 
     <br>
-* As a user I want to understand the purpose of the site upon loading it.
-    * On the home page, the heading **'Bespoke wooden designs'** combined with the images in the **gallery** should allow the user to interpolate the main purpose of the site.
+* As a user I want to easily be able to contact Afterlife for more information.
+    * On the **contact** page there is a form to fill out to contact the band. There is also a mailing list on the homepage to keep up to date with the band.
 
     <br>
-* As a user I want to easily be able to contact Wawas Woods for more information.
-    * On the **contact** page there are contact details. There is also a quick link via an **e-mail icon** to send Wawas Woods an e-mail.
-    * On the **contact** page there is also a **form** for ease of contact.
+* As a user I want to see all of Afterlife's body of work
+    * In the **album** section, there is a detailed overview of all the bands albums.
+    * Additionally one of the pages is the **tour** page. This has all the information on when the band will be performing around the country.
+    <br>
+
+* As a user I want to know more about Afterlife.
+    * On the home page, there is a section describing the background and general sound of the band.
 
     <br>
-* As a user I want to see existing pieces of Wawas Woods' work.
-    * On the home page there is the responsive **gallery** section.
-    * Additionally one of the pages is the **projects** page. This has images and a brief descripton of the project. and will be updated regularly as projects reach completion.
-
-    <br>
-* As a user I want to know more about Wawas Woods.
-    * On the home page there is the **about us** section. This gives a brief description on who Wawas Woods are.
-
-    <br>
-* As a user I want to know how other peoples' experiences with Wawas Woods have been.
-    * At the bottom of the home page there are some **testimonials** from previous customers.
-
-    <br>
-* As a user I want to connect with Wawas Woods on social media.
-    * In the **footer** of every page there are some **social media links** to Wawas Woods social media pages.
-
-    <br>
-* As a user I want to know the process of converting some wood into a finished project.
-    * One of the pages is an **inspiration** page. It is designed to give the user an idea of how projects start out and what they could potentially become.
-    * On the **inspiration** page there are also simplistic descriptions for the methods of constructing the suggested projects.
+* As a user I want to connect with Afterlife on social media.
+    *On the footer, there are links to all the bands social media sites.
 
 ## Bugs
 * Solved
-    * Whilst testing the site on Safari it was noticed that some CSS wasn't displaying correctly. After some investigation it was deceided to target the CSS that wasn't safari compatible with a media query and format it correctly for Safari. 
+    *There was a gap between the navbar and the pages content which I was unable to remove with padding or margin. I then changed the background color of the body to blend it in to the page so it would not be noticeable.
 
 * Un-Solved
-    * The form, on the face of it acts like you would expect it to, it acknowledges your data input, however the data doesn't push anywhere. This is a limitation within this project and would be rectified for a true deployment of the Wawas Woods site.
+    * I was unable to get the buttons to open links in a seperate tab while keeping the main website tab open.
     
     <br>
-## Additional Testing
-
-### Lighthouse
-The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools to test each of the pages for:
-* Performance - How the page performs whilst loading.
-* Accessibility - Is the site acccessible for all users and how can it be improved.
-* Best Practices - Site conforms to industry best practices.
-* SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
-
-As an example the results for Wawas Woods home page are below:
-![Lighthouse test results](assets/readme-images/testing.png)
-
-This part of the testing process showed up that the site was slow to load, mainly due to the image sizes. All the images needed to be compressed before adding to the repository. Once this was done the performance went from ~60% to ~90%. 
 
 ### Peer review
-In addition to all the above testing the beta version of the site was put through its paces by peers, both in the software development field and outside. The results highlighted responsive design weakness for a type of mobile device that was rectified with minor CSS amendments. There were also minor spelling and grammar errors that have since been fixed.
+In addition to all the above testing the beta version of the site was shown to peers in the software development field. They were able to point out overlooked inconsistencies and slight design errors that havce since been fixed.
 
 Back to [README.md](README.md).
