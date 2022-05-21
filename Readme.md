@@ -209,7 +209,7 @@ The method from cloning a project from GitHub is below:
 ### Content
 
 * The font came from [Google Fonts](https://fonts.google.com/).
-* The colour palate was compiled by [Coolors](https://coolors.co/).
+* The colour palette was compiled by [Coolors](https://coolors.co/).
 * The navigation bar idea came from a [YouTube tutorial](https://www.youtube.com/watch?v=oLgtucwjVII).
 * The inspiration for the dropdown menu came from [W3schools](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp).
 * [Figma](https://figma.com/) was used to create the wireframes.

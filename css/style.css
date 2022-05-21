@@ -236,9 +236,8 @@ background-color:#ff7403;
 border-radius: 15%;
 }
 
-button > a {
+button {
 color: white;
-
 }
 
 /* Album page styling */
@@ -264,6 +263,12 @@ color: white;
     text-align: center;
     padding: 1em;
 }
+
+.spotify {
+    vertical-align: center;
+    color: black;
+    padding: .5em; 
+} 
 
 /* Merch page styling */
 
@@ -419,7 +424,7 @@ padding: .25em;
             width: 90%;
     left: 0;
         }
-        /* contact page */
+        /* contact */
     .contact-form {
         background-image: none;
         background-color: #ff7403;
