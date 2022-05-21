@@ -6,7 +6,7 @@ The HTML validator results for each page are below:
 
 * Home page
 
-![W3C Validator test result](assets/readme-assets/home-test.png)
+![W3C Validator test result](assets/readme-assets/home-testing.png)
 
 There is an error message here as the form is not yet live.
 
